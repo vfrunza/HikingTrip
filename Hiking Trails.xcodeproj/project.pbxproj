@@ -7,16 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19834BFE27151CAF008FB8AF /* Trail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19834BFD27151CAF008FB8AF /* Trail.swift */; };
+		19AFF365271B490C00F55E86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFF364271B490C00F55E86 /* ContentView.swift */; };
+		19AFF36A271B499A00F55E86 /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFF369271B499A00F55E86 /* CustomCorners.swift */; };
+		19AFF36C271B49A300F55E86 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFF36B271B49A300F55E86 /* Home.swift */; };
+		19AFF36E271B49A500F55E86 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFF36D271B49A500F55E86 /* MainView.swift */; };
+		19AFF370271B49A800F55E86 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFF36F271B49A800F55E86 /* SideMenu.swift */; };
+		19AFF372271B49AA00F55E86 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFF371271B49AA00F55E86 /* TabButton.swift */; };
+		19AFF374271B58F800F55E86 /* SocialPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFF373271B58F800F55E86 /* SocialPost.swift */; };
+		19AFF376271B590B00F55E86 /* ForumPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFF375271B590B00F55E86 /* ForumPost.swift */; };
+		19AFF378271B594300F55E86 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFF377271B594300F55E86 /* User.swift */; };
+		19AFF37C271B61D100F55E86 /* SocialPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFF37B271B61D100F55E86 /* SocialPost.swift */; };
 		19FC43832714A3EB00510404 /* Hiking_TrailsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FC43822714A3EB00510404 /* Hiking_TrailsApp.swift */; };
-		19FC43852714A3EB00510404 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FC43842714A3EB00510404 /* ContentView.swift */; };
 		19FC43872714A3EC00510404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FC43862714A3EC00510404 /* Assets.xcassets */; };
 		19FC438A2714A3EC00510404 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FC43892714A3EC00510404 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19834BFD27151CAF008FB8AF /* Trail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trail.swift; sourceTree = "<group>"; };
+		19AFF364271B490C00F55E86 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../Downloads/Custom_Side_Menu/Shared/ContentView.swift; sourceTree = "<group>"; };
+		19AFF369271B499A00F55E86 /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
+		19AFF36B271B49A300F55E86 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		19AFF36D271B49A500F55E86 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		19AFF36F271B49A800F55E86 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		19AFF371271B49AA00F55E86 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		19AFF373271B58F800F55E86 /* SocialPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialPost.swift; sourceTree = "<group>"; };
+		19AFF375271B590B00F55E86 /* ForumPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumPost.swift; sourceTree = "<group>"; };
+		19AFF377271B594300F55E86 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		19AFF37B271B61D100F55E86 /* SocialPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialPost.swift; sourceTree = "<group>"; };
 		19FC437F2714A3EB00510404 /* Hiking Trails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hiking Trails.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FC43822714A3EB00510404 /* Hiking_TrailsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiking_TrailsApp.swift; sourceTree = "<group>"; };
-		19FC43842714A3EB00510404 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		19FC43862714A3EC00510404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19FC43892714A3EC00510404 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +52,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19834C0127151E17008FB8AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				19834BFD27151CAF008FB8AF /* Trail.swift */,
+				19AFF373271B58F800F55E86 /* SocialPost.swift */,
+				19AFF375271B590B00F55E86 /* ForumPost.swift */,
+				19AFF377271B594300F55E86 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		19AFF368271B499000F55E86 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				19AFF369271B499A00F55E86 /* CustomCorners.swift */,
+				19AFF36B271B49A300F55E86 /* Home.swift */,
+				19AFF36D271B49A500F55E86 /* MainView.swift */,
+				19AFF36F271B49A800F55E86 /* SideMenu.swift */,
+				19AFF371271B49AA00F55E86 /* TabButton.swift */,
+				19AFF37B271B61D100F55E86 /* SocialPost.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		19FC43762714A3EB00510404 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +95,10 @@
 		19FC43812714A3EB00510404 /* Hiking Trails */ = {
 			isa = PBXGroup;
 			children = (
+				19AFF368271B499000F55E86 /* Views */,
+				19834C0127151E17008FB8AF /* Models */,
 				19FC43822714A3EB00510404 /* Hiking_TrailsApp.swift */,
-				19FC43842714A3EB00510404 /* ContentView.swift */,
+				19AFF364271B490C00F55E86 /* ContentView.swift */,
 				19FC43862714A3EC00510404 /* Assets.xcassets */,
 				19FC43882714A3EC00510404 /* Preview Content */,
 			);
@@ -137,8 +183,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19FC43852714A3EB00510404 /* ContentView.swift in Sources */,
+				19AFF365271B490C00F55E86 /* ContentView.swift in Sources */,
+				19AFF376271B590B00F55E86 /* ForumPost.swift in Sources */,
+				19AFF36E271B49A500F55E86 /* MainView.swift in Sources */,
+				19AFF36A271B499A00F55E86 /* CustomCorners.swift in Sources */,
+				19AFF37C271B61D100F55E86 /* SocialPost.swift in Sources */,
+				19AFF370271B49A800F55E86 /* SideMenu.swift in Sources */,
+				19AFF36C271B49A300F55E86 /* Home.swift in Sources */,
+				19AFF372271B49AA00F55E86 /* TabButton.swift in Sources */,
+				19AFF374271B58F800F55E86 /* SocialPost.swift in Sources */,
+				19834BFE27151CAF008FB8AF /* Trail.swift in Sources */,
 				19FC43832714A3EB00510404 /* Hiking_TrailsApp.swift in Sources */,
+				19AFF378271B594300F55E86 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hiking Trails/Preview Content\"";
+				DEVELOPMENT_TEAM = D5KANS5K27;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -276,7 +333,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,7 +343,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -298,6 +355,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hiking Trails/Preview Content\"";
+				DEVELOPMENT_TEAM = D5KANS5K27;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -305,7 +363,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +373,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
