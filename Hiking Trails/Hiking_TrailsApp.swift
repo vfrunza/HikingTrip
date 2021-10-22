@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Auth0
 
 @main
 struct Hiking_TrailsApp: App {

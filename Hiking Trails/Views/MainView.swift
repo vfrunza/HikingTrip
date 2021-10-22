@@ -6,14 +6,22 @@
 //
 
 import SwiftUI
+import Auth0
 
 struct MainView: View {
     // selected Tab...
     @State var selectedTab = "Home"
     @State var showMenu = false
     
+    @ObservedObject var userAuth: UserAuth = UserAuth()
+
+
+    @ViewBuilder              
     var body: some View {
-       
+        if !userAuth.isLoggedin {
+            LoginView().environmentObject(userAuth)
+        }
+        else {
         ZStack{
             
             Color("green")
@@ -98,7 +106,7 @@ struct MainView: View {
                 
                 ,alignment: .topLeading
             )
-        }
+        }}
     }
 }
 
@@ -114,5 +122,23 @@ extension View{
     func getRect()->CGRect{
         
         return UIScreen.main.bounds
+    }
+}
+
+
+class UserAuth: ObservableObject {
+    @Published var isLoggedin = false     // published property to update view
+    @Published var credential: Auth0.Credentials?
+    
+
+    func login(credential: Credentials) {
+        // login request... on success:
+        self.credential = credential
+        self.isLoggedin = true
+    }
+
+    func logout() {
+        // login request... on success:
+        self.isLoggedin = false
     }
 }

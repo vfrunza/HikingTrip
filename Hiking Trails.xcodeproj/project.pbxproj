@@ -8,7 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		19834BFE27151CAF008FB8AF /* Trail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19834BFD27151CAF008FB8AF /* Trail.swift */; };
-		19AFF365271B490C00F55E86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFF364271B490C00F55E86 /* ContentView.swift */; };
+		19AEF7352722009D0074B20C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AEF7342722009D0074B20C /* ContentView.swift */; };
+		19AEF7392722069F0074B20C /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = 19AEF7382722069F0074B20C /* Auth0 */; };
+		19AEF73B2722070D0074B20C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AEF73A2722070D0074B20C /* LoginView.swift */; };
+		19AEF73D27220AA00074B20C /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19AEF73C27220AA00074B20C /* Auth0.plist */; };
 		19AFF36A271B499A00F55E86 /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFF369271B499A00F55E86 /* CustomCorners.swift */; };
 		19AFF36C271B49A300F55E86 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFF36B271B49A300F55E86 /* Home.swift */; };
 		19AFF36E271B49A500F55E86 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFF36D271B49A500F55E86 /* MainView.swift */; };
@@ -17,7 +20,6 @@
 		19AFF374271B58F800F55E86 /* SocialPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFF373271B58F800F55E86 /* SocialPost.swift */; };
 		19AFF376271B590B00F55E86 /* ForumPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFF375271B590B00F55E86 /* ForumPost.swift */; };
 		19AFF378271B594300F55E86 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFF377271B594300F55E86 /* User.swift */; };
-		19AFF37C271B61D100F55E86 /* SocialPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AFF37B271B61D100F55E86 /* SocialPost.swift */; };
 		19FC43832714A3EB00510404 /* Hiking_TrailsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FC43822714A3EB00510404 /* Hiking_TrailsApp.swift */; };
 		19FC43872714A3EC00510404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FC43862714A3EC00510404 /* Assets.xcassets */; };
 		19FC438A2714A3EC00510404 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FC43892714A3EC00510404 /* Preview Assets.xcassets */; };
@@ -25,7 +27,10 @@
 
 /* Begin PBXFileReference section */
 		19834BFD27151CAF008FB8AF /* Trail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trail.swift; sourceTree = "<group>"; };
-		19AFF364271B490C00F55E86 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../Downloads/Custom_Side_Menu/Shared/ContentView.swift; sourceTree = "<group>"; };
+		19AEF7342722009D0074B20C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		19AEF736272205B00074B20C /* Hiking-Trails-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Hiking-Trails-Info.plist"; sourceTree = SOURCE_ROOT; };
+		19AEF73A2722070D0074B20C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		19AEF73C27220AA00074B20C /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
 		19AFF369271B499A00F55E86 /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
 		19AFF36B271B49A300F55E86 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		19AFF36D271B49A500F55E86 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -34,7 +39,6 @@
 		19AFF373271B58F800F55E86 /* SocialPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialPost.swift; sourceTree = "<group>"; };
 		19AFF375271B590B00F55E86 /* ForumPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumPost.swift; sourceTree = "<group>"; };
 		19AFF377271B594300F55E86 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		19AFF37B271B61D100F55E86 /* SocialPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialPost.swift; sourceTree = "<group>"; };
 		19FC437F2714A3EB00510404 /* Hiking Trails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hiking Trails.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FC43822714A3EB00510404 /* Hiking_TrailsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiking_TrailsApp.swift; sourceTree = "<group>"; };
 		19FC43862714A3EC00510404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19AEF7392722069F0074B20C /* Auth0 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,10 +73,10 @@
 			children = (
 				19AFF369271B499A00F55E86 /* CustomCorners.swift */,
 				19AFF36B271B49A300F55E86 /* Home.swift */,
+				19AEF73A2722070D0074B20C /* LoginView.swift */,
 				19AFF36D271B49A500F55E86 /* MainView.swift */,
 				19AFF36F271B49A800F55E86 /* SideMenu.swift */,
 				19AFF371271B49AA00F55E86 /* TabButton.swift */,
-				19AFF37B271B61D100F55E86 /* SocialPost.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -79,6 +84,7 @@
 		19FC43762714A3EB00510404 = {
 			isa = PBXGroup;
 			children = (
+				19AEF73C27220AA00074B20C /* Auth0.plist */,
 				19FC43812714A3EB00510404 /* Hiking Trails */,
 				19FC43802714A3EB00510404 /* Products */,
 			);
@@ -95,10 +101,11 @@
 		19FC43812714A3EB00510404 /* Hiking Trails */ = {
 			isa = PBXGroup;
 			children = (
+				19AEF736272205B00074B20C /* Hiking-Trails-Info.plist */,
 				19AFF368271B499000F55E86 /* Views */,
 				19834C0127151E17008FB8AF /* Models */,
 				19FC43822714A3EB00510404 /* Hiking_TrailsApp.swift */,
-				19AFF364271B490C00F55E86 /* ContentView.swift */,
+				19AEF7342722009D0074B20C /* ContentView.swift */,
 				19FC43862714A3EC00510404 /* Assets.xcassets */,
 				19FC43882714A3EC00510404 /* Preview Content */,
 			);
@@ -129,6 +136,9 @@
 			dependencies = (
 			);
 			name = "Hiking Trails";
+			packageProductDependencies = (
+				19AEF7382722069F0074B20C /* Auth0 */,
+			);
 			productName = "Hiking Trails";
 			productReference = 19FC437F2714A3EB00510404 /* Hiking Trails.app */;
 			productType = "com.apple.product-type.application";
@@ -157,6 +167,9 @@
 				Base,
 			);
 			mainGroup = 19FC43762714A3EB00510404;
+			packageReferences = (
+				19AEF7372722069F0074B20C /* XCRemoteSwiftPackageReference "Auth0.swift" */,
+			);
 			productRefGroup = 19FC43802714A3EB00510404 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -172,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19FC438A2714A3EC00510404 /* Preview Assets.xcassets in Resources */,
+				19AEF73D27220AA00074B20C /* Auth0.plist in Resources */,
 				19FC43872714A3EC00510404 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,18 +197,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19AFF365271B490C00F55E86 /* ContentView.swift in Sources */,
 				19AFF376271B590B00F55E86 /* ForumPost.swift in Sources */,
 				19AFF36E271B49A500F55E86 /* MainView.swift in Sources */,
+				19AEF7352722009D0074B20C /* ContentView.swift in Sources */,
 				19AFF36A271B499A00F55E86 /* CustomCorners.swift in Sources */,
-				19AFF37C271B61D100F55E86 /* SocialPost.swift in Sources */,
 				19AFF370271B49A800F55E86 /* SideMenu.swift in Sources */,
 				19AFF36C271B49A300F55E86 /* Home.swift in Sources */,
+				19AEF73B2722070D0074B20C /* LoginView.swift in Sources */,
 				19AFF372271B49AA00F55E86 /* TabButton.swift in Sources */,
 				19AFF374271B58F800F55E86 /* SocialPost.swift in Sources */,
 				19834BFE27151CAF008FB8AF /* Trail.swift in Sources */,
-				19FC43832714A3EB00510404 /* Hiking_TrailsApp.swift in Sources */,
 				19AFF378271B594300F55E86 /* User.swift in Sources */,
+				19FC43832714A3EB00510404 /* Hiking_TrailsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +342,7 @@
 				DEVELOPMENT_TEAM = D5KANS5K27;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hiking-Trails-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -358,6 +373,7 @@
 				DEVELOPMENT_TEAM = D5KANS5K27;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hiking-Trails-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -399,6 +415,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		19AEF7372722069F0074B20C /* XCRemoteSwiftPackageReference "Auth0.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		19AEF7382722069F0074B20C /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19AEF7372722069F0074B20C /* XCRemoteSwiftPackageReference "Auth0.swift" */;
+			productName = Auth0;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 19FC43772714A3EB00510404 /* Project object */;
 }
